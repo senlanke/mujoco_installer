@@ -10,6 +10,7 @@
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/senlanke/mujoco_installer/main/install_mujoco.sh)"
 ```
+mujoco将会安装在'/home/"用户"/MuJoCoBin/'这个目录下
 验证安装
 ```bash
 source ~/.bashrc
