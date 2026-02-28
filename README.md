@@ -15,3 +15,14 @@ bash -c "$(curl -fsSL [https://raw.githubusercontent.com/senlanke/mujoco_install
 source ~/.bashrc
 simulate ~/MuJoCoBin/mujoco-3.3.0/model/humanoid/humanoid.xml
 ```
+## 一键卸载
+自动删除安装目录及其物理文件，并智能清理 ~/.bashrc 中的相关配置：
+
+```bash
+bash -c "$(curl -fsSL [https://raw.githubusercontent.com/senlanke/mujoco_installer/main/uninstall_mujoco.sh](https://raw.githubusercontent.com/senlanke/mujoco_installer/main/uninstall_mujoco.sh))"
+```
+卸载后清理：
+
+```bash
+source ~/.bashrc
+```
