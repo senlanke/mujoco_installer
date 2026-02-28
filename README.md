@@ -1,4 +1,4 @@
-# MuJoCo 一键安装与配置脚本 (MuJoCo Installer)
+# MuJoCo3.3 一键安装与配置脚本
 
 本项目提供了一个用于在 Linux 系统上快速下载、解压并配置 MuJoCo (3.3.0) 物理引擎的一键安装脚本。
 
