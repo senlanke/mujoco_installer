@@ -9,8 +9,9 @@
 
 ```bash
 bash -c "$(curl -fsSL [https://raw.githubusercontent.com/senlanke/mujoco_installer/main/install_mujoco.sh](https://raw.githubusercontent.com/senlanke/mujoco_installer/main/install_mujoco.sh))"
-
+```
 验证安装
 ```bash
 source ~/.bashrc
 simulate ~/MuJoCoBin/mujoco-3.3.0/model/humanoid/humanoid.xml
+```
